@@ -35,7 +35,7 @@ namespace ClarityVentures.Emailer
                 Timeout = 5000
             };
 
-            _logger.LogInformation("SmtpClient host address set to {0}", host, login, password);
+            _logger.LogInformation("SmtpClient host address set to {0}", host);
             
         }
 
