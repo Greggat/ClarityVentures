@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClarityVentures\ClarityVentures.Emailer.csproj" />
+    <ProjectReference Include="..\ClarityVentures.Emailer\ClarityVentures.Emailer.csproj" />
   </ItemGroup>
 
 </Project>

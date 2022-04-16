@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using ClarityVentures.Emailer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Logging.Console;
+using ClarityVentures.Emailer;
 
 var builder = new ConfigurationBuilder()
       .SetBasePath(Directory.GetCurrentDirectory())

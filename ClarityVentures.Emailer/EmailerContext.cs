@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
-namespace ClarityVentures
+namespace ClarityVentures.Emailer
 {
     internal class EmailerContext : DbContext
     {
@@ -16,7 +16,7 @@ namespace ClarityVentures
 
             //Database.EnsureCreated();
             var path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
-            DbPath = Path.Join(path, "guildbuddy.db");
+            DbPath = Path.Join(path, "emailer.db");
 
             Database.EnsureCreated();
         }

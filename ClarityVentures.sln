@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClarityVentures.Emailer", "ClarityVentures\ClarityVentures.Emailer.csproj", "{57EBDF54-1340-463C-B45A-9E17169FFE9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClarityVentures.Emailer", "ClarityVentures.Emailer\ClarityVentures.Emailer.csproj", "{57EBDF54-1340-463C-B45A-9E17169FFE9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClarityVentures.EmailAPI", "ClarityVentures.EmailAPI\ClarityVentures.EmailAPI.csproj", "{7D326CF6-8094-44E6-88B4-60647863A066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClarityVentures.EmailAPI", "ClarityVentures.EmailAPI\ClarityVentures.EmailAPI.csproj", "{7D326CF6-8094-44E6-88B4-60647863A066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{A295BA0D-63EE-4E86-A338-AF7EAC625804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClarityVentures.ExampleConsole", "ClarityVentures.ExampleConsole\ClarityVentures.ExampleConsole.csproj", "{A295BA0D-63EE-4E86-A338-AF7EAC625804}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
